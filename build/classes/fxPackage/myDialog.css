@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 19, 2018, 8:50:21 AM
+    Author     : Rishoni de Silva
+    Student id:2016357
+*/
+
+.myDialog{
+    -fx-background-color: #0AF6F2;
+  -fx-font: 17px Tahoma;
+}
+
+.myDialog:header *.header-panel *.label{
+   -fx-font: 20px Tahoma;
+     -fx-text-fill: #F8F0F3;
+  
+    -fx-fill:#865A6B  ;
+}
+
+.myDialog:header *.header-panel{
+    -fx-background-color: #DD0946;
+}
+
+
+.button {
+    -fx-background-color:#F9F503  ;
+    -fx-background-radius:6;
+    
+    
+    text {
+    -fx-font: 20px Roboto Condensed;
+    -fx-fill: #4C4B05;
+ 
+}
+}
+
